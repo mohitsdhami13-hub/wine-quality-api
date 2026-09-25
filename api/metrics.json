@@ -1,0 +1,60 @@
+{
+  "red": {
+    "accuracy": 0.8656,
+    "confusion_matrix": [
+      [
+        0,
+        13,
+        0
+      ],
+      [
+        0,
+        255,
+        9
+      ],
+      [
+        0,
+        21,
+        22
+      ]
+    ]
+  },
+  "white": {
+    "accuracy": 0.851,
+    "confusion_matrix": [
+      [
+        9,
+        28,
+        0
+      ],
+      [
+        1,
+        700,
+        30
+      ],
+      [
+        0,
+        87,
+        125
+      ]
+    ]
+  },
+  "labels": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "feature_names": [
+    "fixed acidity",
+    "volatile acidity",
+    "citric acid",
+    "residual sugar",
+    "chlorides",
+    "free sulfur dioxide",
+    "total sulfur dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol"
+  ]
+}
